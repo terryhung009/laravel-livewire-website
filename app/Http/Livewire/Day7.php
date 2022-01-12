@@ -12,4 +12,8 @@ class Day7 extends Component
     {
         $this->count++;
     }
+    public function setCount($value)
+    {
+        $this->count = $value;
+    }
 }
