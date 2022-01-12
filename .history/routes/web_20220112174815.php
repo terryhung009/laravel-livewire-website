@@ -25,9 +25,6 @@ Route::get('/day7', App\Http\Livewire\Day7::class);
 // Route::get('/day10', App\Http\Livewire\Day10::class);
 // Route::get('/day11', App\Http\Livewire\Day11::class);
 // Route::get('/day12', App\Http\Livewire\Day12::class);
-
-
-
 // Route::get('/post/{post_id}', ShowPost::class);
 
 // Route::get('/', ShowPosts::class);
