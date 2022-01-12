@@ -12,5 +12,4 @@ class ShowPosts extends Component
         return view('livewire.show-posts')
             ->layout('layouts.base');
     }
-    public $title = 'Hello World!';
 }

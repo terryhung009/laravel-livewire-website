@@ -6,7 +6,7 @@
 
 </div> --}}
 
-{{-- <div>
+<div>
     <h2>{{ $title }}</h2>
     <!-- Will output "Hello World!" -->
-</div> --}}
+</div>

@@ -4,7 +4,17 @@ namespace App\Http\Livewire;
 
 use Livewire\Component;
 
-class ShowPosts extends Component
+class Day5 extends Component
+{
+    public $title = 'Hello World!';
+}
+<?php
+
+namespace App\Http\Livewire;
+
+use Livewire\Component;
+
+class Day5 extends Component
 {
     public function render()
     {

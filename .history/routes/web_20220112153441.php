@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Livewire\ShowPosts;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,8 +17,3 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/Day5', App\Http\Livewire\Day5::class);
-// Route::get('/post/{post_id}', ShowPost::class);
-
-// Route::get('/', ShowPosts::class);
-// Route::get('/post', [ShowPosts::class, 'render']);
