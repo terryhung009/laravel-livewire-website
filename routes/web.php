@@ -20,8 +20,8 @@ Route::get('/', function () {
 Route::get('/day5', App\Http\Livewire\Day5::class);
 Route::get('/day6', App\Http\Livewire\Day6::class);
 Route::get('/day7', App\Http\Livewire\Day7::class);
-// Route::get('/day8', App\Http\Livewire\Day8::class);
-// Route::get('/day9', App\Http\Livewire\Day9::class);
+Route::get('/day8', App\Http\Livewire\Day8::class);
+Route::get('/day9', App\Http\Livewire\Day9::class);
 // Route::get('/day10', App\Http\Livewire\Day10::class);
 // Route::get('/day11', App\Http\Livewire\Day11::class);
 // Route::get('/day12', App\Http\Livewire\Day12::class);
